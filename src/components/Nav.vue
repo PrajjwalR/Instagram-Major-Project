@@ -1,5 +1,9 @@
 <template>
-  <ALayoutHeader> </ALayoutHeader>
+  <a-layout-header>
+    <RouterLink to="/">Instagram</RouterLink>
+  </a-layout-header>
 </template>
 
-<script setup></script>
+<script setup>
+import { RouterLink } from "vue-router";
+</script>
